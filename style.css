@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-size: 20px;
+}
+
+.navbr{
+    background-color:rgb(15, 186, 32);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    
+    width: 100%;
+    padding: 5px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 1%;
+}
+.logo img{
+    width: 30;
+}
+
+.title{
+    text-align: center;
+    margin-left: 15%;
+}
+
+.content{
+    margin: 10px;
+}
+
+p{
+    text-indent: 30px;
+}
+
+.sectn{
+    display: flex;
+    padding: 10px;
+}
+
+.child1{
+    flex: 30%;
+    padding-right: 2%;
+}
+
+.child2{
+    flex: 70%;
+    padding-left: 2%;
+}
+
+.faq{
+    border: 1px solid #000000c0; 
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 10%;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 2px;
+    text-align: center;
+}
+
+th {
+    background-color: #dedb08d3;
+}
+
+.endbr{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    padding: 1%;
+}
+
+@media (max-width: 768px) {
+    .title{
+        margin-left: 10%;
+    }
+
+    .sectn {
+        flex-direction: column; /* Stack child divs vertically */
+    }
+
+    /* Reset widths for child divs to 100% on smaller screens */
+    .child1, .child2 {
+        flex: 100%; /* Set width to 100% for both child divs */
+    }
+}
