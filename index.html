@@ -9,6 +9,7 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="earlyfav.ico">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -25,7 +26,7 @@
 
   <div class="content">
     <main>
-      <div class="sectn">
+      <div class="sectn" data-aos="fade-up" data-aos-duration="1000">
         <div class="child1" style="flex: 65%;">
           <p>
             This is the <b>Resume Project challenge</b> from <a href="https://codebasics.io/">Codebasics</a>. It
@@ -47,10 +48,10 @@
       <h4>About Telangana-</h4>
 
       <div class="sectn">
-        <div class="child1">
+        <div class="child1" data-aos="fade-right" data-aos-duration="1000">
           <img src="images/R.jpg" width="100%">
         </div>
-        <div class="child2">
+        <div class="child2" data-aos="fade-left" data-aos-duration="1000">
           <p>
             Telangana is a state in southern India, officially formed on June 2, 2014, making it the 29th state of
             India.
@@ -101,24 +102,25 @@
       </div>
 
       <br>
-
-      <h4>Table of Contents:</h4>
-      <ul>
-        <li>Analysis of Stamp Registration</li>
-        <li>Analysis of Vehicle Sales</li>
-        <li>Analysis of Investments by Businesses</li>
-        <li>Additional Research</li>
-      </ul>
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <h4>Table of Contents:</h4>
+        <ul>
+          <li>Analysis of Stamp Registration</li>
+          <li>Analysis of Vehicle Sales</li>
+          <li>Analysis of Investments by Businesses</li>
+          <li>Additional Research</li>
+        </ul>
+      </div>
 
       <br>
 
       <h4>Analysis of Stamp Registration-</h4>
 
       <div class="sectn">
-        <div class="child1" style="flex: 50%;">
+        <div class="child1" style="flex: 50%;" data-aos="fade-right" data-aos-duration="1000">
           <img src="images/gra.png" width="100%">
         </div>
-        <div class="child1" style="flex: 50%;">
+        <div class="child2" style="flex: 50%;" data-aos="fade-left" data-aos-duration="1000">
           <p>
             On average, <b>12 lakhs</b> documents are registered every year. In FY 2019, 16 lakhs documents were
             registered.
@@ -166,184 +168,197 @@
           </div>
         </div>
       </div>
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <br>
+        <b><i>How does the revenue generated from document registration vary across districts in Telangana?</i></b>
+        <br>
+        <ul>
+          <li><b>Rangareddy, Medchal Malkajgiri, and Sangareddy</b> are the top three districts where the majority of
+            document
+            registrations occur.</li>
+          <li>Regarding revenue generation, <b>Rangareddy, Medchal Malkajgiri, and Hyderabad</b> are the top three
+            leaders.
+          </li>
+          <li>This is because, even though the document registration count is lower in Hyderabad compared to Sangareddy,
+            the <b>revenue generated per registration</b> is higher in Hyderabad, mainly due to its status as a
+            metropolis
+            city
+            with higher stamp duty rates.</li>
+          <li>Approximately <b>71% of the revenue</b> is generated solely from these three cities (Rangareddy, Medchal
+            Malkajgiri, and Hyderabad).</li>
+        </ul>
+      </div>
+      <br>
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <b><i>List down the top 5 districts that showed the highest document registration revenue growth between FY 2019
+            and 2022.</i></b>
+        <br>The top 5 cities and there growth till FY 2022 from FY 2019 is as follows-
+        <table>
+          <tr>
+            <th>District</th>
+            <th>% growth</th>
+          </tr>
+          <tr>
+            <td>Mulugu</td>
+            <td>171%</td>
+          </tr>
+          <tr>
+            <td>Adilabad</td>
+            <td>123%</td>
+          </tr>
+          <tr>
+            <td>Karimnagar</td>
+            <td>93%</td>
+          </tr>
+          <tr>
+            <td>Mancherial</td>
+            <td>92%</td>
+          </tr>
+          <tr>
+            <td>Medchal_Malkajgiri</td>
+            <td>92%</td>
+          </tr>
+        </table>
+      </div>
+      <br>
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <b><i>How does the revenue generated from document registration compare to the revenue generated from e-stamp
+            challans across districts?</i></b>
 
-      <br>
-      <b><i>How does the revenue generated from document registration vary across districts in Telangana?</i></b>
-      <br>
-      <ul>
-        <li><b>Rangareddy, Medchal Malkajgiri, and Sangareddy</b> are the top three districts where the majority of
-          document
-          registrations occur.</li>
-        <li>Regarding revenue generation, <b>Rangareddy, Medchal Malkajgiri, and Hyderabad</b> are the top three
-          leaders.
-        </li>
-        <li>This is because, even though the document registration count is lower in Hyderabad compared to Sangareddy,
-          the <b>revenue generated per registration</b> is higher in Hyderabad, mainly due to its status as a metropolis
-          city
-          with higher stamp duty rates.</li>
-        <li>Approximately <b>71% of the revenue</b> is generated solely from these three cities (Rangareddy, Medchal
-          Malkajgiri, and Hyderabad).</li>
-      </ul>
-      <br>
-      <b><i>List down the top 5 districts that showed the highest document registration revenue growth between FY 2019
-          and 2022.</i></b>
-      <br>The top 5 cities and there growth till FY 2022 from FY 2019 is as follows-
-      <table>
-        <tr>
-          <th>District</th>
-          <th>% growth</th>
-        </tr>
-        <tr>
-          <td>Mulugu</td>
-          <td>171%</td>
-        </tr>
-        <tr>
-          <td>Adilabad</td>
-          <td>123%</td>
-        </tr>
-        <tr>
-          <td>Karimnagar</td>
-          <td>93%</td>
-        </tr>
-        <tr>
-          <td>Mancherial</td>
-          <td>92%</td>
-        </tr>
-        <tr>
-          <td>Medchal_Malkajgiri</td>
-          <td>92%</td>
-        </tr>
-      </table>
-      <br>
-      <b><i>How does the revenue generated from document registration compare to the revenue generated from e-stamp
-          challans across districts?</i></b>
-
-      <div class="sectn">
-        <div class="child1" style="flex: 50%;">
-          <ul>
+        <div class="sectn">
+          <div class="child1" style="flex: 50%;" data-aos="fade-right" data-aos-duration="1000" <ul>
             <li>Looking at the graph, we can see some differences in revenue between <b>January 2022 and February
                 2022</b>.
             </li>
             <li>But, in the other months, both are generating almost the same revenue.</li>
             <li>If we check district-wise, the revenue from documents is pretty much the same as the revenue from
               e-stamps for all districts.</li>
-          </ul>
-        </div>
-        <div class="child2" style="flex: 50%;">
-          <img src="images/reven.png" width="100%">
-        </div>
-      </div>
-
-      <br>
-
-      <br>
-      <b><i> List down the top 5 districts where e-stamps revenue contributes significantly more to the revenue than the
-          documents in FY 2022.</i></b>
-      <br>
-      <p>For FY 2022, revenue from documents is nearly <b>equal</b> to revenue from e-stamps for all districts. However,
-        there
-        are a few districts that show slightly higher e-stamp revenue.</p>
-      <table>
-        <tr>
-          <th>District</th>
-          <th>% value</th>
-        </tr>
-        <tr>
-          <td>Medak</td>
-          <td>4.4%</td>
-        </tr>
-        <tr>
-          <td>Bhadradri Kothagudem</td>
-          <td>2.3%</td>
-        </tr>
-        <tr>
-          <td>Adilabad</td>
-          <td>1.7%</td>
-        </tr>
-        <tr>
-          <td>Medchal_Malkajgiri</td>
-          <td>1.6%</td>
-        </tr>
-        <tr>
-          <td>Warangal</td>
-          <td>0.3%</td>
-        </tr>
-      </table>
-      <br>
-      <b><i>Categorize districts into three segments based on their stamp registration revenue generation during the
-          fiscal
-          year 2021 to 2022.</i></b>
-      <br>
-
-      <div class="sectn">
-        <div class="child1" style="flex: 20%;">
-          We can categories district by revenue as-
-          <ol>
-            <li>below <b>2</b> billion Rupee revenue</li>
-            <li>between <b>2 to 10</b> billion Rupee revenue</li>
-            <li>above <b>10</b> billion Rupee revenue</li>
-          </ol>
-        </div>
-        <div class="child2" style="flex: 50%;">
-          <img src="images/dist.png" width="100%">
+            </ul>
+          </div>
+          <div class="child2" style="flex: 50%;" data-aos="fade-left" data-aos-duration="1000">
+            <img src="images/reven.png" width="100%">
+          </div>
         </div>
       </div>
+      <br>
 
-      <br><br>
+      <br>
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <b><i> List down the top 5 districts where e-stamps revenue contributes significantly more to the revenue than
+            the
+            documents in FY 2022.</i></b>
+        <br>
+        <p>For FY 2022, revenue from documents is nearly <b>equal</b> to revenue from e-stamps for all districts.
+          However,
+          there
+          are a few districts that show slightly higher e-stamp revenue.</p>
+        <table>
+          <tr>
+            <th>District</th>
+            <th>% value</th>
+          </tr>
+          <tr>
+            <td>Medak</td>
+            <td>4.4%</td>
+          </tr>
+          <tr>
+            <td>Bhadradri Kothagudem</td>
+            <td>2.3%</td>
+          </tr>
+          <tr>
+            <td>Adilabad</td>
+            <td>1.7%</td>
+          </tr>
+          <tr>
+            <td>Medchal_Malkajgiri</td>
+            <td>1.6%</td>
+          </tr>
+          <tr>
+            <td>Warangal</td>
+            <td>0.3%</td>
+          </tr>
+        </table>
+      </div>
+      <br>
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <b><i>Categorize districts into three segments based on their stamp registration revenue generation during the
+            fiscal
+            year 2021 to 2022.</i></b>
+        <br>
 
-      <h4>Analysis of Vehicle Sales-</h4>
-
-      <div class="sectn">
-        <div class="child1" style="flex: 50%;">
-          <img src="images/vehi.png" width="100%">
+        <div class="sectn">
+          <div class="child1" style="flex: 20%;" data-aos="fade-right" data-aos-duration="1000">
+            We can categories district by revenue as-
+            <ol>
+              <li>below <b>2</b> billion Rupee revenue</li>
+              <li>between <b>2 to 10</b> billion Rupee revenue</li>
+              <li>above <b>10</b> billion Rupee revenue</li>
+            </ol>
+          </div>
+          <div class="child2" style="flex: 50%;" data-aos="fade-left" data-aos-duration="1000">
+            <img src="images/dist.png" width="100%">
+          </div>
         </div>
-        <div class="child1" style="flex: 50%;">
-          <ul>
-            <li>This data represents vehicle sales from the <b>RTA</b> (Regional Transport Authority) of Telangana.</li>
-            <li>On average, <b>16 lakhs vehicles</b> are sold every year.</li>
-            <li>However, the total number of vehicle sales has been <b>decreasing each year</b>.</li>
-            <li>Hyderabad, Medchal-Malkajgiri, and Rangareddy are the three major markets for vehicles, accounting for
-              <b>46%</b> of the total sales.
-            </li>
-            <li>In April 2020, sales were exceptionally low due to the <b>COVID-19 lockdown</b>.</li>
-          </ul>
-          <div class="faq">
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    Who is RTA?
-                  </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    The Regional Transport Authority is the
-                    organisation of the Indian government responsible for
-                    maintaining a database of drivers and a database of vehicles
-                    for various states of India. The RTO issues driving licences,
-                    organises collection of vehicle excise duty
-                    also known as road tax and road fund licence and
-                    sells personalised registrations.
+
+        <br><br>
+
+        <h4>Analysis of Vehicle Sales-</h4>
+
+        <div class="sectn" data-aos="fade-up" data-aos-duration="1000">
+          <div class="child1" style="flex: 50%;" data-aos="fade-right" data-aos-duration="1000">
+            <img src="images/vehi.png" width="100%">
+          </div>
+          <div class="child1" style="flex: 50%;" data-aos="fade-left" data-aos-duration="1000">
+            <ul>
+              <li>This data represents vehicle sales from the <b>RTA</b> (Regional Transport Authority) of Telangana.
+              </li>
+              <li>On average, <b>16 lakhs vehicles</b> are sold every year.</li>
+              <li>However, the total number of vehicle sales has been <b>decreasing each year</b>.</li>
+              <li>Hyderabad, Medchal-Malkajgiri, and Rangareddy are the three major markets for vehicles, accounting for
+                <b>46%</b> of the total sales.
+              </li>
+              <li>In April 2020, sales were exceptionally low due to the <b>COVID-19 lockdown</b>.</li>
+            </ul>
+            <div class="faq">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Who is RTA?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      The Regional Transport Authority is the
+                      organisation of the Indian government responsible for
+                      maintaining a database of drivers and a database of vehicles
+                      for various states of India. The RTO issues driving licences,
+                      organises collection of vehicle excise duty
+                      also known as road tax and road fund licence and
+                      sells personalised registrations.
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    By which criteria vehicles are classified?
-                  </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    <p>Vehicles are classified based on:</p>
-                    <ul>
-                      <li>Fuel type (Petrol, Diesel, Electric, Other)</li>
-                      <li>Seat capacity (1-3 seats, 4-6 seats, above 6 seats)</li>
-                      <li>Vehicle type (Motorcycle, MotorCar, AutoRickshaw, Agriculture)</li>
-                      <li>Use case (Transport, Non-transport)</li>
-                    </ul>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      By which criteria vehicles are classified?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Vehicles are classified based on:</p>
+                      <ul>
+                        <li>Fuel type (Petrol, Diesel, Electric, Other)</li>
+                        <li>Seat capacity (1-3 seats, 4-6 seats, above 6 seats)</li>
+                        <li>Vehicle type (Motorcycle, MotorCar, AutoRickshaw, Agriculture)</li>
+                        <li>Use case (Transport, Non-transport)</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -353,329 +368,367 @@
       </div>
 
       <br>
-      <b><i>Investigate whether there is any correlation between vehicle sales and specific months or seasons in
-          different districts.</i></b>
-      <br>
-      <ul>
-        <li>For FY 2019, 2020, and 2021, October is the top month for vehicle sales, thanks to the festivals
-          "<b>Dassehra</b>"
-          or "<b>Vijayadashami</b>".</li>
-        <li>This festival falls in October and is considered an <b>auspicious time</b> to make purchases.</li>
-        <li><b>November and June</b> consistently maintain their positions among the top 5 months for vehicle sales
-          every year.
-        </li>
-      </ul>
-      <br>
-      <b><i>Are there any months or seasons that consistently show higher or lower sales rate, and if yes, what could be
-          the driving factors?</i></b>
-      <br>
-      <ul>
-        <li>February, December, and October <b>consistently exhibit lower sales</b> rates year after year.</li>
-        <li>In fact, the total sales rate is declining each year.</li>
-        <li>One major reason for this decline is attributed to a <b>shortage in semiconductor chips</b>.</li>
-      </ul>
 
-      <br>
-      <b><i>How does the distribution of vehicles vary by vehicle class (MotorCycle, MotorCar, AutoRickshaw,
-          Agriculture) across different districts?
-          Are there any districts with a predominant preference for a specific vehicle class? Consider FY 2022 for
-          analysis.</i></b>
-      <br>
-      <div class="sectn">
-        <div class="child1" style="flex: 60%;">
-          <ul>
-            <li><b>Vehicle type wise-</b></li>
-            <ul>
-              <li>MotorCycle is the most preferred vehicle type, accounting for more than 50% of total sales in all
-                districts.</li>
-              <li>Urban districts like Hyderabad, Medchal-Malkajgiri, and Rangareddy show low interest in <b>Agriculture
-                  type vehicles</b>, which is expected due to their urban nature.</li>
-              <li>In fact, Medchal-Malkajgiri and Rangareddy also exhibit low interest in <b>AutoRickshaws</b>.</li>
-            </ul>
-          </ul>
-
-          <ul>
-            <li><b>Fuel Type wise-</b></li>
-            <ul>
-              <li>Petrol-fueled vehicles are the <b>top choice</b> for people in all districts, accounting for more than
-                <b>70%</b> of
-                total sales in each district.
-              </li>
-              <li>Urban districts like Hyderabad, Medchal-Malkajgiri, and Rangareddy show a slight inclination towards
-                <b>electric vehicles</b>.
-              </li>
-            </ul>
-          </ul>
-        </div>
-        <div class="child2" style="flex: 40%;">
-          <img src="images/circ.png" width="100%">
-        </div>
-      </div>
-
-      <ul>
-        <li><b>Category Transport/Non-Transport-</b></li>
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <b><i>Investigate whether there is any correlation between vehicle sales and specific months or seasons in
+            different districts.</i></b>
+        <br>
         <ul>
-          <li>In all districts, on average, only <b>15%</b> of total vehicles are Transport type vehicles.</li>
-          <li>However, in <b>Karimnagar, 30%</b> of total vehicles are Transport type vehicles. This is because the city
-            is
-            widely known for its Granite and Agro-based industries, earning it the nickname "City of Granites."</li>
+          <li>For FY 2019, 2020, and 2021, October is the top month for vehicle sales, thanks to the festivals
+            "<b>Dassehra</b>"
+            or "<b>Vijayadashami</b>".</li>
+          <li>This festival falls in October and is considered an <b>auspicious time</b> to make purchases.</li>
+          <li><b>November and June</b> consistently maintain their positions among the top 5 months for vehicle sales
+            every year.
+          </li>
         </ul>
-      </ul>
-      <br>
-      <b><i>List down the top 3 and bottom 3 districts that have shown the highest and lowest vehicle sales growth
-          during
-          FY 2022 compared to FY 2021? (Consider and compare categories: Petrol, Diesel and Electric)</i></b>
-      <br>
-      Overall 2022 sales growth is -8.8% compared to 2021.
-      <br>
-      <div class="sectn">
-        <div class="child1" style="flex: 50%;">
-          <b>Top 3-</b>
-          <table>
-            <tr>
-              <th>District</th>
-              <th>% growth</th>
-            </tr>
-            <tr>
-              <td>Rangareddy</td>
-              <td>13.8%</td>
-            </tr>
-            <tr>
-              <td>Karimnagar</td>
-              <td>6.6%</td>
-            </tr>
-            <tr>
-              <td>Hyderabad</td>
-              <td>5.8%</td>
-            </tr>
-          </table>
-        </div>
-        <div class="child2" style="flex: 50%;">
-          <b>Bottom 3-</b>
-          <table>
-            <tr>
-              <th>District</th>
-              <th>% growth</th>
-            </tr>
-            <tr>
-              <td>Nirmal</td>
-              <td>-34.3%</td>
-            </tr>
-            <tr>
-              <td>Jagtial</td>
-              <td>-36.8%</td>
-            </tr>
-            <tr>
-              <td>Warangal</td>
-              <td>-42.0%</td>
-            </tr>
-          </table>
-        </div>
       </div>
       <br>
-      When we check the growth based on fuel types, electric vehicles have <b>grown twice</b> as much.
-      <br><b>Fuel type wise-</b>
-      <table>
-        <tr>
-          <th>Category</th>
-          <th>% growth</th>
-        </tr>
-        <tr>
-          <td>Electrical</td>
-          <td>+101%</td>
-        </tr>
-        <tr>
-          <td>Other</td>
-          <td>+88%</td>
-        </tr>
-        <tr>
-          <td>Diesel</td>
-          <td>-1.62%</td>
-        </tr>
-        <tr>
-          <td>Petrol</td>
-          <td>-14%</td>
-        </tr>
-      </table>
-      <p>One of the reasons people are opting for electric and other fuel type vehicles over diesel and petrol may be
-        the <b>high prices of diesel and petrol</b>.</p>
-      <br>
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <b><i>Are there any months or seasons that consistently show higher or lower sales rate, and if yes, what could
+            be
+            the driving factors?</i></b>
+        <br>
+        <ul>
+          <li>February, December, and October <b>consistently exhibit lower sales</b> rates year after year.</li>
+          <li>In fact, the total sales rate is declining each year.</li>
+          <li>One major reason for this decline is attributed to a <b>shortage in semiconductor chips</b>.</li>
+        </ul>
+      </div>
 
-      <h4>Analysis of Investments by Businesses-</h4>
-      <p>The TS-iPASS dataset in Telangana comprises data concerning <b>units or businesses established</b> within the
-        state
-        under the "Industrial Project Approval and Self-Certification System" (iPASS). This government initiative
-        aims to foster industrial growth and investment by streamlining project approvals and enabling
-        self-certification for businesses.</p>
       <br>
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <b><i>How does the distribution of vehicles vary by vehicle class (MotorCycle, MotorCar, AutoRickshaw,
+            Agriculture) across different districts?
+            Are there any districts with a predominant preference for a specific vehicle class? Consider FY 2022 for
+            analysis.</i></b>
+        <br>
+        <div class="sectn">
+          <div class="child1" style="flex: 60%;" data-aos="fade-right" data-aos-duration="1000">
+            <ul>
+              <li><b>Vehicle type wise-</b></li>
+              <ul>
+                <li>MotorCycle is the most preferred vehicle type, accounting for more than 50% of total sales in all
+                  districts.</li>
+                <li>Urban districts like Hyderabad, Medchal-Malkajgiri, and Rangareddy show low interest in
+                  <b>Agriculture
+                    type vehicles</b>, which is expected due to their urban nature.
+                </li>
+                <li>In fact, Medchal-Malkajgiri and Rangareddy also exhibit low interest in <b>AutoRickshaws</b>.</li>
+              </ul>
+            </ul>
 
-      <div class="sectn">
-        <div class="child1" style="flex: 60%;">
-          <img src="images/inves.png" width="100%">
+            <ul>
+              <li><b>Fuel Type wise-</b></li>
+              <ul>
+                <li>Petrol-fueled vehicles are the <b>top choice</b> for people in all districts, accounting for more
+                  than
+                  <b>70%</b> of
+                  total sales in each district.
+                </li>
+                <li>Urban districts like Hyderabad, Medchal-Malkajgiri, and Rangareddy show a slight inclination towards
+                  <b>electric vehicles</b>.
+                </li>
+              </ul>
+            </ul>
+          </div>
+          <div class="child2" style="flex: 40%;" data-aos="fade-left" data-aos-duration="1000">
+            <img src="images/circ.png" width="100%">
+          </div>
         </div>
-        <div class="child2" style="flex: 40%;">
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <ul>
+          <li><b>Category Transport/Non-Transport-</b></li>
           <ul>
-            <li>Every year, on average, investments of <b>25 thousand crores</b> are made.</li>
-            <li>Total investments decreased in FY 2020 but have been <b>rising</b> every year since then.</li>
-            <li>However, there is one extreme peak in the investment graph in <b>February 2020</b>. This is due to a
-              significant investment in the 'Real Estate, Industrial Parks, and IT Buildings' sector in Rangareddy.</li>
+            <li>In all districts, on average, only <b>15%</b> of total vehicles are Transport type vehicles.</li>
+            <li>However, in <b>Karimnagar, 30%</b> of total vehicles are Transport type vehicles. This is because the
+              city
+              is
+              widely known for its Granite and Agro-based industries, earning it the nickname "City of Granites."</li>
           </ul>
-          <div class="faq">
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    What is iPASS?
-                  </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    TS-iPASS is a <b>certification system</b> that provides support to industries,
-                    services, manufacturing companies in Telangana. It is an online process
-                    that helps to clear certification process and permissions
-                    within short timelines.
+        </ul>
+      </div>
+      <br>
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <b><i>List down the top 3 and bottom 3 districts that have shown the highest and lowest vehicle sales growth
+            during
+            FY 2022 compared to FY 2021? (Consider and compare categories: Petrol, Diesel and Electric)</i></b>
+        <br>
+        Overall 2022 sales growth is -8.8% compared to 2021.
+        <br>
+        <div class="sectn">
+          <div class="child1" style="flex: 50%;" data-aos="fade-right" data-aos-duration="1000">
+            <b>Top 3-</b>
+            <table>
+              <tr>
+                <th>District</th>
+                <th>% growth</th>
+              </tr>
+              <tr>
+                <td>Rangareddy</td>
+                <td>13.8%</td>
+              </tr>
+              <tr>
+                <td>Karimnagar</td>
+                <td>6.6%</td>
+              </tr>
+              <tr>
+                <td>Hyderabad</td>
+                <td>5.8%</td>
+              </tr>
+            </table>
+          </div>
+          <div class="child2" style="flex: 50%;" data-aos="fade-left" data-aos-duration="1000">
+            <b>Bottom 3-</b>
+            <table>
+              <tr>
+                <th>District</th>
+                <th>% growth</th>
+              </tr>
+              <tr>
+                <td>Nirmal</td>
+                <td>-34.3%</td>
+              </tr>
+              <tr>
+                <td>Jagtial</td>
+                <td>-36.8%</td>
+              </tr>
+              <tr>
+                <td>Warangal</td>
+                <td>-42.0%</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <br>
+        <div data-aos="fade-left" data-aos-duration="1000">
+          When we check the growth based on fuel types, electric vehicles have <b>grown twice</b> as much.
+          <br><b>Fuel type wise-</b>
+          <table>
+            <tr>
+              <th>Category</th>
+              <th>% growth</th>
+            </tr>
+            <tr>
+              <td>Electrical</td>
+              <td>+101%</td>
+            </tr>
+            <tr>
+              <td>Other</td>
+              <td>+88%</td>
+            </tr>
+            <tr>
+              <td>Diesel</td>
+              <td>-1.62%</td>
+            </tr>
+            <tr>
+              <td>Petrol</td>
+              <td>-14%</td>
+            </tr>
+          </table>
+          <p>One of the reasons people are opting for electric and other fuel type vehicles over diesel and petrol may
+            be
+            the <b>high prices of diesel and petrol</b>.</p>
+          <br>
+        </div>
+
+        <h4>Analysis of Investments by Businesses-</h4>
+        <p>The TS-iPASS dataset in Telangana comprises data concerning <b>units or businesses established</b> within the
+          state
+          under the "Industrial Project Approval and Self-Certification System" (iPASS). This government initiative
+          aims to foster industrial growth and investment by streamlining project approvals and enabling
+          self-certification for businesses.</p>
+        <br>
+
+        <div class="sectn" data-aos="fade-up" data-aos-duration="1000">
+          <div class="child1" style="flex: 60%;" data-aos="fade-right" data-aos-duration="1000">
+            <img src="images/inves.png" width="100%">
+          </div>
+          <div class="child2" style="flex: 40%;" data-aos="fade-left" data-aos-duration="1000">
+            <ul>
+              <li>Every year, on average, investments of <b>25 thousand crores</b> are made.</li>
+              <li>Total investments decreased in FY 2020 but have been <b>rising</b> every year since then.</li>
+              <li>However, there is one extreme peak in the investment graph in <b>February 2020</b>. This is due to a
+                significant investment in the 'Real Estate, Industrial Parks, and IT Buildings' sector in Rangareddy.
+              </li>
+            </ul>
+            <div class="faq">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      What is iPASS?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      TS-iPASS is a <b>certification system</b> that provides support to industries,
+                      services, manufacturing companies in Telangana. It is an online process
+                      that helps to clear certification process and permissions
+                      within short timelines.
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Economy of Telagana? Natural resources over their?
-                  </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    Telangana's nominal gross state domestic product for the year 2020-21 stands at <b>₹13.59 lakh
-                      crore</b>.
-                    Service sector is the largest contributor to the Telangana's economy with a share of about
-                    <b>65%</b> in
-                    the year 2018-19.
-                    Agriculture also form a backbone of Telangana's Economy. Two important rivers of India,
-                    the Godavari and Krishna, flow through the state, providing irrigation.
-                    Telangana is a mineral-rich state, with <b>coal reserves</b> at Singareni Colleries.
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Economy of Telagana? Natural resources over their?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Telangana's nominal gross state domestic product for the year 2020-21 stands at <b>₹13.59 lakh
+                        crore</b>.
+                      Service sector is the largest contributor to the Telangana's economy with a share of about
+                      <b>65%</b> in
+                      the year 2018-19.
+                      Agriculture also form a backbone of Telangana's Economy. Two important rivers of India,
+                      the Godavari and Krishna, flow through the state, providing irrigation.
+                      Telangana is a mineral-rich state, with <b>coal reserves</b> at Singareni Colleries.
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
 
-      <br>
-      <b><i>List down the top 5 sectors that have witnessed the most significant investments in FY 2022.</i></b>
-      <br>
-      Following sectors-
-      <ol>
-        <li>Plastic and Rubber</li>
-        <li>Pharmaceuticals and Chemicals</li>
-        <li>Real Estate, Industrial Parks and IT Buildings</li>
-        <li>Solar and Other Renewable Enenrgy</li>
-        <li>Engineering</li>
-      </ol>
-      <br>
-      <b><i>List down the top 3 districts that have attracted the most significant sector investments during
-          FY 2019 to 2022? What factors could have
-          led to the substantial investments in these particular districts?</i></b>
-      <div class="sectn">
-        <div class="child1" style="flex: 70%;">
-          <br>These districts are-
+        <br>
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <b><i>List down the top 5 sectors that have witnessed the most significant investments in FY 2022.</i></b>
+          <br>
+          Following sectors-
           <ol>
-            <li>Rangareddy</li>
-            <li>Sangareddy</li>
-            <li>Medchal_Malkajgiri</li>
+            <li>Plastic and Rubber</li>
+            <li>Pharmaceuticals and Chemicals</li>
+            <li>Real Estate, Industrial Parks and IT Buildings</li>
+            <li>Solar and Other Renewable Enenrgy</li>
+            <li>Engineering</li>
           </ol>
+        </div>
+        <br>
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <b><i>List down the top 3 districts that have attracted the most significant sector investments during
+              FY 2019 to 2022? What factors could have
+              led to the substantial investments in these particular districts?</i></b>
+          <div class="sectn">
+            <div class="child1" style="flex: 70%;" data-aos="fade-right" data-aos-duration="1000">
+              <br>These districts are-
+              <ol>
+                <li>Rangareddy</li>
+                <li>Sangareddy</li>
+                <li>Medchal_Malkajgiri</li>
+              </ol>
 
+              <ul>
+                <li>Major investments in Rangareddy are related to the 'Real Estate, Industrial Parks, and IT Buildings'
+                  sector. These businesses seek a talented workforce but <b>affordable land, and a low cost of
+                    living</b>
+                  also.
+                  Rangareddy offers comparatively lower land rates and a lower cost of living than Hyderabad.</li>
+                <li>Sangareddy and Medchal-Malkajgiri are attracting investments in the <b>'Pharmaceuticals and
+                    Chemicals'</b>
+                  sector. Pharmaceutical and chemical companies prefer locations near major cities like Hyderabad to
+                  <b>reduce
+                    transportation costs</b>, and these two districts are not only neighboring Hyderabad but also well
+                  connected
+                  to it by highways.
+                </li>
+              </ul>
+
+
+            </div>
+            <div class="child2" style="flex: 30%;" data-aos="fade-left" data-aos-duration="1000">
+              <img src="images/mapp.png" width="100%">
+              <br>
+              <p>Investments District wise</p>
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <b><i>Are there any particular sectors that have shown substantial investment in multiple districts between FY
+              2021 and 2022?</i></b>
+          <br>
           <ul>
-            <li>Major investments in Rangareddy are related to the 'Real Estate, Industrial Parks, and IT Buildings'
-              sector. These businesses seek a talented workforce but <b>affordable land, and a low cost of living</b>
-              also.
-              Rangareddy offers comparatively lower land rates and a lower cost of living than Hyderabad.</li>
-            <li>Sangareddy and Medchal-Malkajgiri are attracting investments in the <b>'Pharmaceuticals and
-                Chemicals'</b>
-              sector. Pharmaceutical and chemical companies prefer locations near major cities like Hyderabad to
-              <b>reduce
-                transportation costs</b>, and these two districts are not only neighboring Hyderabad but also well
-              connected
-              to it by highways.
+            <li>Sectors such as Agro-based (including Cold Storages), Electrical and Electronic Products, Granite and
+              Stone
+              Crushing, Plastic, and Rubber have <b>exhibited strong growth</b> in FY 2021-2022.</li>
+            <li>In the Automobile sector, there has been an exceptional surge in investment in FY 2022, particularly in
+              Sangareddy and Rangareddy districts.</li>
+            <li>Conversely, investments in sectors like Fertilizers, Pesticides, Real Estate, Industrial Parks, and IT
+              Buildings have been <b>declining</b> since FY 2020.</li>
+          </ul>
+        </div>
+        <br><br>
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <h4>Additional Research-</h4>
+          <br>
+          <b><i>What are the top 5 districts to buy commercial properties in Telangana? Justify your answer.</i></b>
+
+          <div class="sectn">
+            <div class="child1" style="flex: 70%;" data-aos="fade-right" data-aos-duration="1000">
+              <ul>
+                <li>Rangareddy</li>
+                <li>Sangareddy</li>
+                <li>Medchal_Malkajgiri</li>
+                <li>Hyderabad</li>
+                <li>Yadadri Bhuvanagiri</li>
+              </ul>
+              <p>
+                Rangareddy, Sangareddy, and Medchal-Malkajgiri are continuously <b>attracting investments</b> and
+                experiencing
+                development over time.
+                <br>Hyderabad, which not only serves as the
+                capital of Telangana but also ranks <b>fourth</b> among India's fastest-growing cities.
+              </p>
+            </div>
+            <div class="child2" style="flex: 30%;" data-aos="fade-left" data-aos-duration="1000">
+              <img src="images/tabb.png" width="100%">
+              <br>
+              <p>Yearly Investments District wise(in Cr.)</p>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <b><i>What significant policies or initiatives were put into effect to enhance economic growth, investments,
+              and
+              employment in
+              Telangana by the current government? Can we quantify the impact of these policies using available
+              data?</i></b>
+          <ul>
+            <li>India has a <b>young and talented</b> workforce, which is attractive to businesses.</li>
+            <li><b>Simplifying rules and procedures</b> can make it easier for businesses to start and operate. States
+              can
+              make it
+              less complicated to follow the rules.</li>
+            <li>Laws that protect <b>workers' rights and fairness</b> at work need to be better.</li>
+            <li>We can improve employee skills with <b>practical</b> training programs, making them ready for jobs.</li>
+            <li>Investment and development are mostly in Hyderabad and nearby districts. We should also focus on
+              <b>other
+                areas</b>
+              by building better roads.
+            </li>
+            <li>Even though overall vehicle sales are down, electric vehicle sales are up. So, we should support
+              <b>electric
+                vehicle-related businesses</b>.
+            </li>
+            <li>As discussed, there are some sectors whose investments have been declining every year. We should
+              <b>engage in conversations</b> with them to better understand the areas where we may be falling short.
             </li>
           </ul>
-
         </div>
-        <div class="child2" style="flex: 30%;">
-          <img src="images/mapp.png" width="100%">
-          <br>
-          <p>Investments District wise</p>
-        </div>
-      </div>
-
-      <br>
-
-      <b><i>Are there any particular sectors that have shown substantial investment in multiple districts between FY
-          2021 and 2022?</i></b>
-      <br>
-      <ul>
-        <li>Sectors such as Agro-based (including Cold Storages), Electrical and Electronic Products, Granite and Stone
-          Crushing, Plastic, and Rubber have <b>exhibited strong growth</b> in FY 2021-2022.</li>
-        <li>In the Automobile sector, there has been an exceptional surge in investment in FY 2022, particularly in
-          Sangareddy and Rangareddy districts.</li>
-        <li>Conversely, investments in sectors like Fertilizers, Pesticides, Real Estate, Industrial Parks, and IT
-          Buildings have been <b>declining</b> since FY 2020.</li>
-      </ul>
-
-      <br><br>
-
-      <h4>Additional Research-</h4>
-      <br>
-      <b><i>What are the top 5 districts to buy commercial properties in Telangana? Justify your answer.</i></b>
-
-      <div class="sectn">
-        <div class="child1" style="flex: 70%;">
-          <ul>
-            <li>Rangareddy</li>
-            <li>Sangareddy</li>
-            <li>Medchal_Malkajgiri</li>
-            <li>Hyderabad</li>
-            <li>Yadadri Bhuvanagiri</li>
-          </ul>
-          <p>
-            Rangareddy, Sangareddy, and Medchal-Malkajgiri are continuously <b>attracting investments</b> and
-            experiencing
-            development over time.
-            <br>Hyderabad, which not only serves as the
-            capital of Telangana but also ranks <b>fourth</b> among India's fastest-growing cities.
-          </p>
-        </div>
-        <div class="child2" style="flex: 30%;">
-          <img src="images/tabb.png" width="100%">
-          <br>
-          <p>Yearly Investments District wise(in Cr.)</p>
-        </div>
-      </div>
-
-      <br>
-
-      <b><i>What significant policies or initiatives were put into effect to enhance economic growth, investments, and
-          employment in
-          Telangana by the current government? Can we quantify the impact of these policies using available
-          data?</i></b>
-      <ul>
-        <li>India has a <b>young and talented</b> workforce, which is attractive to businesses.</li>
-        <li><b>Simplifying rules and procedures</b> can make it easier for businesses to start and operate. States can
-          make it
-          less complicated to follow the rules.</li>
-        <li>Laws that protect <b>workers' rights and fairness</b> at work need to be better.</li>
-        <li>We can improve employee skills with <b>practical</b> training programs, making them ready for jobs.</li>
-        <li>Investment and development are mostly in Hyderabad and nearby districts. We should also focus on <b>other
-            areas</b>
-          by building better roads.</li>
-        <li>Even though overall vehicle sales are down, electric vehicle sales are up. So, we should support <b>electric
-            vehicle-related businesses</b>.</li>
-        <li>As discussed, there are some sectors whose investments have been declining every year. We should
-          <b>engage in conversations</b> with them to better understand the areas where we may be falling short.</li>
-      </ul>
     </main>
   </div>
 
@@ -690,7 +743,10 @@
 
 
 
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
